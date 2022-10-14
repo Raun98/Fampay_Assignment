@@ -24,6 +24,10 @@ def HomeView(request):
     #print(resp)
     return render(request, 'home.html', context)
 
+def AboutView(request):
+    context = {}
+    return render(request, 'about.html', context)
+
 @api_view(['GET'])
 def get_stored_videos(request):
     video_objects = list(VideoDatabase.objects.order_by('-publishing_datetime').values())

@@ -20,7 +20,8 @@ from SearchApiApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.YoutubeSearchResults.as_view()),
+    path('api/home', views.YoutubeSearchResults.as_view()),
     path('api/getStored', get_stored_videos),
-    path('home', HomeView),
+    path('', HomeView),
+    path('about', AboutView),
 ]

@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@
 "sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
              crossorigin="anonymous">
 </head>
-<body bgcolor="black">
+<body style="background-color:#000000">
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
@@ -34,45 +33,21 @@
   </ul>
 </nav>
 
-
-<div class="card-deck">
-  {% for video in video_objects_1 %}
-        <div class="card">
-            <img class="card-img-top" src="{{ video.thumbnail_url }}" alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">{{ video.title }}</h4>
-                <p class="card-text">{{ video.description }}</p>
-                <p class="card-text">
-                    <small class="text-muted">
-                        {{ video.publishing_datetime }}
-                    </small>
-                </p>
-            </div>
-        </div>
-  {% endfor %}
+ <div class="center-screen">
+  <p><span style="background-color: #000000;"></span></p>
+<h1 style="color: #ffad00;"><span style="background-color: #000000;">Hi! I'm a software developer currently working at FIS, and these projects are my hobbies!</span></h1><br>
+<p><span style="color: #ffffff; background-color: #000000;">I play football and work on robotics in my spare time! I'm glad you got a glimpse of some of the projects I work on and look forward to working with you in the future!</span></p>
 </div>
-<div class="card-deck">
-  {% for video in video_objects_2 %}
-        <div class="card">
-            <img class="card-img-top" src="{{ video.thumbnail_url }}" alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">{{ video.title }}</h4>
-                <p class="card-text">{{ video.description }}</p>
-                <p class="card-text">
-                    <small class="text-muted">
-                        {{ video.publishing_datetime }}
-                    </small>
-                </p>
-            </div>
-        </div>
-  {% endfor %}
-</div>
+</body>
 <style>
-img {
-  max-width: 100%;
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
-
-    #menu {
+#menu {
 	background: #000000;
 	color: #FFF;
 	height: 45px;
@@ -178,4 +153,3 @@ function updatemenu() {
 }
 </script>
 </html>
-

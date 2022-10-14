@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+celery -A YoutubeSearchProject worker -l info -P gevent
