@@ -20,6 +20,11 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 - On the second, run `celery -A YoutubeSearchProject worker -l info -P gevent`
 - On the other terminal window, run `python3 manage.py runserver`
 
+# Docker Setup:
+- Clone the repo and run `docker-compose build`
+- Once done building, run `docker-compose up -d`
+- And to check logs you can run `docker-compose logs -f`
+
 Django returns a URL to your local host, follow that to find the dashboard.
 # Screenshots:
 The Home Page:
