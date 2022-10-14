@@ -23,9 +23,9 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 Django returns a URL to your local host, follow that to find the dashboard.
 # Screenshots:
 The Home Page:
-![image](https://user-images.githubusercontent.com/71919273/195874893-dddde708-f1cd-45e4-b620-6c2a38eb1bfb.png)
-The About Me Page
 ![image](https://user-images.githubusercontent.com/71919273/195874880-bc2f9f74-3db0-4cf7-b712-d4bc2d5a28ce.png)
+The About Me Page
+![image](https://user-images.githubusercontent.com/71919273/195874893-dddde708-f1cd-45e4-b620-6c2a38eb1bfb.png)
 The Api with GET + Search
 ![image](https://user-images.githubusercontent.com/71919273/195874900-c20980c1-c2a9-4091-9f88-6eff827d4bcd.png)
 Filters & Ordering
