@@ -21,5 +21,16 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 - On the other terminal window, run `python3 manage.py runserver`
 
 Django returns a URL to your local host, follow that to find the dashboard.
+# Screenshots:
+The Home Page:
+![image](https://user-images.githubusercontent.com/71919273/195874893-dddde708-f1cd-45e4-b620-6c2a38eb1bfb.png)
+The About Me Page
+![image](https://user-images.githubusercontent.com/71919273/195874880-bc2f9f74-3db0-4cf7-b712-d4bc2d5a28ce.png)
+The Api with GET + Search
+![image](https://user-images.githubusercontent.com/71919273/195874900-c20980c1-c2a9-4091-9f88-6eff827d4bcd.png)
+Filters & Ordering
+![image](https://user-images.githubusercontent.com/71919273/195874904-31bf066a-0493-4c40-857c-185e5b2f58d8.png)
+Search Results for Query - "Neyma"
+![image](https://user-images.githubusercontent.com/71919273/195874910-f88708a6-b600-42f0-b8a8-e57c21ec7a92.png)
 
 Thank you for reading! :book: :heart:
